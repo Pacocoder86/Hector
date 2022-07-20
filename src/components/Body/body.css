@@ -7,6 +7,17 @@ body{
   text-align: center;
 }
 
+.section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#root {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
 .main-container{
   align-items: center;
   background-color: #ffff ;

@@ -14,9 +14,8 @@ const Body = () => {
     return (url.match(/^http[^\?]*.(jpg|jpeg|gif|png|tiff|bmp)(\?(.*))?$/gmi) !== null)
   }
 
-
   return (
-    <section>
+    <section className='section'>
       {context.loading
         ? <FadeLoader color='#000000' loading={context.loading} size={100} />
         : context.productos.filter(producto => {
