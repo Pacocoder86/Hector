@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <>
       <div className='header-container'>
-        <div className='container'>
+        <div className='first-header'>
           <h2>ENVÍO GRATIS en toda la tienda - Entregas de 1 a 3 días hábiles.</h2>
         </div>
         <div className='navbar is-primary'>
@@ -42,6 +42,9 @@ const Header = () => {
                   </li>
                   <li className='nav-items'>
                     <Link to='/login'>Login</Link>
+                  </li>
+                  <li className='nav-items'>
+                    <Link to='/signup'>Signup</Link>
                   </li>
                 </ul>
               </nav>

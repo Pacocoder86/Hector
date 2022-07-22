@@ -6,6 +6,7 @@ import Kids from './components/Categorias/SubCategorias/Kids'
 import Footer from './components/Footer/Footer'
 import Login from './components/Login/Login'
 import ProductoDetalle from './components/ProductoDetalle/ProductoDetalle'
+import Signup from './components/Singup/Singup'
 import Home from './pages/Home'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/categorias' element={<Categorias />} />
         <Route path='/categorias/categoria/Kids' element={<Kids />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<Signup />} />
         <Route path='*' element={<Error404 />} />
       </Routes>
       <Footer />
